@@ -1,5 +1,6 @@
 package net.astro_00_.basicmod;
 
+import net.astro_00_.basicmod.block.ModBlocks;
 import net.astro_00_.basicmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class BasicMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
